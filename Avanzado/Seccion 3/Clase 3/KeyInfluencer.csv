@@ -1,0 +1,11 @@
+TicketID,Fecha,Cliente,TipoProblema,TiempoResolución,SatisfacciónCliente
+1,2024-01-01,ClienteA,Hardware,30,5
+2,2024-01-02,ClienteB,Software,60,4
+3,2024-01-03,ClienteC,Red,45,3
+4,2024-01-04,ClienteD,Hardware,15,5
+5,2024-01-05,ClienteE,Software,120,2
+6,2024-01-06,ClienteF,Red,90,3
+7,2024-01-07,ClienteG,Hardware,25,4
+8,2024-01-08,ClienteH,Software,60,2
+9,2024-01-09,ClienteI,Red,30,4
+10,2024-01-10,ClienteJ,Hardware,45,5

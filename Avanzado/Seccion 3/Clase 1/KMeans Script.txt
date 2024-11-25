@@ -1,0 +1,21 @@
+# Importar las librerías necesarias
+import pandas as pd
+from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Leer los datos del DataFrame de Power BI
+dataset = pd.DataFrame(dataset)
+
+# Seleccionar las características para clustering (omitir la columna 'target')
+features = dataset.drop(columns=['target'])
+
+# Aplicar el algoritmo K-Means
+kmeans = KMeans(n_clusters=3, random_state=0)
+dataset['cluster'] = kmeans.fit_predict(features)
+
+# Crear un DataFrame con las características principales para visualización
+visualization_df = dataset[['alcohol', 'malic_acid', 'cluster']]
+
+# Exportar el DataFrame con los clusters a Power BI
+output = visualization_df

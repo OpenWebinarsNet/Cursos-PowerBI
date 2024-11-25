@@ -1,0 +1,13 @@
+from sklearn.datasets import load_wine
+import pandas as pd
+
+# Cargar el dataset de vinos
+wine = load_wine()
+wine_df = pd.DataFrame(data=wine.data, columns=wine.feature_names)
+wine_df['target'] = wine.target
+
+# Guardar en un archivo CSV
+file_path_wine = 'C:/Users/aramos/OneDrive - ToolsGroup/Escritorio/Curso PowerBI/Curso Avanzado/Seccion 3/wine_data.csv'
+wine_df.to_csv(file_path_wine, index=False)
+
+file_path_wine

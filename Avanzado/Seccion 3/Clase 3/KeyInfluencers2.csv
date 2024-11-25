@@ -1,0 +1,11 @@
+StudentID,Nombre,Género,Edad,HorasEstudio,ActividadExtracurricular,CalificaciónExamen
+1,Juan,M,16,10,Sí,85
+2,María,F,17,8,No,78
+3,Carlos,M,16,12,Sí,92
+4,Ana,F,17,6,Sí,74
+5,Luis,M,16,15,No,95
+6,Sofía,F,17,7,No,80
+7,Pablo,M,16,9,Sí,88
+8,Laura,F,17,5,No,70
+9,Andrés,M,16,11,Sí,90
+10,Carmen,F,17,4,No,65
